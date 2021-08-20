@@ -8,16 +8,14 @@ const formatter = new Intl.NumberFormat();
 const formatNumber = (number: number): string => formatter.format(number);
 
 class Monty extends Command {
-  static description = "describe the command here";
+  static description = "Plllllayyyy Monty Hallll";
 
   static flags = {
     help: flags.help({ char: "h" }),
   };
 
   async run() {
-    this.log(
-      chalk.bold.black("Wellllcome to Monty Hall!") + " Let's play a game."
-    );
+    this.log(chalk.bold("Wellllcome to Monty Hall!") + " Let's play a game.");
     const answers = await inquirer.prompt([
       {
         name: "doors",
