@@ -21,7 +21,7 @@ $ npm install -g chris-is-dumb
 $ monty COMMAND
 running command...
 $ monty (-v|--version|version)
-chris-is-dumb/0.0.0 darwin-x64 node-v14.17.0
+chris-is-dumb/0.0.1 darwin-x64 node-v14.17.0
 $ monty --help [COMMAND]
 USAGE
   $ monty COMMAND
