@@ -1,5 +1,5 @@
 {
-  "name": "monty",
+  "name": "chris-is-dumb",
   "description": "Monty Hall - Win a Car",
   "version": "0.0.0",
   "author": "Daniel Krajnak @dankrajnak",
@@ -49,9 +49,7 @@
   },
   "repository": "dankrajnak/monty",
   "scripts": {
-    "posttest": "eslint . --ext .ts --config .eslintrc",
     "prepack": "rm -rf lib && tsc -b && oclif-dev readme",
-    "test": "nyc --extension .ts mocha --forbid-only \"test/**/*.test.ts\"",
     "version": "oclif-dev readme && git add README.md"
   },
   "types": "lib/index.d.ts"
